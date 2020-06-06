@@ -138,7 +138,7 @@ task ballerinaBuild {
 
     outputs.dir artifactSocketCacheParent
     outputs.dir artifactSocketBallerinaDocs
-    outputs.file artifactSocketLibParent
+    outputs.dir artifactSocketLibParent
 }
 
 task createArtifactZip(type: Zip) {
