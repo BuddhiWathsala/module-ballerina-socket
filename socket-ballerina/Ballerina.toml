@@ -1,6 +1,6 @@
 [project]
 org-name = "ballerina"
-version = "0.6.0"
+version = "@project.version@"
 
 [platform]
 target = "java8"
