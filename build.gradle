@@ -76,7 +76,6 @@ subprojects {
         failOnCommitNeeded = false
         versionPropertyFile = 'gradle.properties'
         versionProperties = ['version', 'ballerinaLangVersion']
-        snapshotSuffix = '-SNAPSHOT'
         tagTemplate = 'v${version}'
         git {
             // To release from any branch
