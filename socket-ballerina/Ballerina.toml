@@ -1,20 +1,20 @@
 [project]
 org-name = "ballerina"
-version = "@project.version@"
+version = "0.6.0"
 
 [platform]
 target = "java8"
 
     [[platform.libraries]]
     artifactId = "socket"
-    version = "@project.version@"
-    path = "../socket-native/build/libs/socket-native-@project.version@.jar"
+    version = "0.6.0"
+    path = "../socket-native/build/libs/socket-native-0.6.0.jar"
     groupId = "ballerina"
     modules = ["socket"]
 
     [[platform.libraries]]
     artifactId = "socket"
-    version = "@project.version@"
-    path = "../socket-test-utils/build/libs/socket-test-utils-@project.version@.jar"
+    version = "0.6.0"
+    path = "../socket-test-utils/build/libs/socket-test-utils-0.6.0.jar"
     groupId = "org.ballerinalang.stdlib.socket"
     modules = ["socket"]
