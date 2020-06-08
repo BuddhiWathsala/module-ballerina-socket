@@ -75,7 +75,6 @@ subprojects {
         failOnSnapshotDependencies = false
         failOnCommitNeeded = false
         versionPropertyFile = 'gradle.properties'
-        versionProperties = ['version', 'ballerinaLangVersion']
         tagTemplate = 'v${version}'
         git {
             // To release from any branch
