@@ -1,8 +1,9 @@
-name: Publish release
+name: Tag creation
 
 on:
-  release:
-    types: [published]
+  create:
+    tags:
+      - .*
 
 jobs:
   publish-release:
